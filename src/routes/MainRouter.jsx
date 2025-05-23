@@ -9,10 +9,11 @@ import ItemDetail from '../pages/ItemDetail';
 import Footer from '../components/Footer';
 import Payment from '../pages/Payment';
 import Category from '../pages/Category';
+import NotFound from '../pages/NotFound';
 
 const MainRouter = () => {
 	return (
-		<Router>
+		<Router basename="/proyecto-notredame">
 			<div className="d-flex flex-column min-vh-100">
 				<NavBar />
 				<main className="flex-grow-1">
@@ -25,6 +26,9 @@ const MainRouter = () => {
 						<Route path="/contact" element={<Contact />} />
 						<Route path="/cart" element={<Cart />} />
 						<Route path="/payment" element={<Payment />} />
+
+						{/* For errors pages */}
+						<Route path="*" element={<NotFound />} />
 					</Routes>
 				</main>
 
