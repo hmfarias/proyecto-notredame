@@ -55,22 +55,49 @@ const Cart = () => {
 								<Col md={6}>
 									<h5>{item.title}</h5>
 									<div className="d-flex align-items-center gap-3">
-										<span>Price: ${item.price.toFixed(2)}</span>
+										<span>
+											Price: $
+											{item.price.toLocaleString('en-US', {
+												minimumFractionDigits: 2,
+												maximumFractionDigits: 2,
+											})}
+										</span>
 										<ButtonGroup>
 											<Button
 												variant="light"
 												size="sm"
+												style={{
+													backgroundColor: 'rgb(173, 172, 172)',
+													color: '#333',
+													borderColor: '#ccc',
+												}}
 												onClick={() => removeItem(item)}
 												disabled={item.qtyItem === 1}
 											>
 												<BsDashLg />
 											</Button>
-											<Button variant="outline-secondary" size="sm" disabled>
+											<Button
+												variant="outline-secondary"
+												size="sm"
+												disabled
+												style={{
+													width: '40px',
+													backgroundColor: '#f8f9fa',
+													border: '1px solid #ccc',
+													color: '#495057',
+													fontWeight: 'bold',
+												}}
+											>
 												{item.qtyItem}
 											</Button>
 											<Button
 												variant="light"
 												size="sm"
+												style={{
+													backgroundColor: 'rgb(173, 172, 172)',
+													color: '#333',
+													borderColor: '#ccc',
+												}}
 												onClick={() => addItem(item)}
 												disabled={item.qtyItem >= item.stock}
 											>
@@ -82,7 +109,11 @@ const Cart = () => {
 
 								<Col md={3} className="text-md-end mt-3 mt-md-0">
 									<p className="mb-1 fw-semibold">
-										Subtotal: ${item.price * item.qtyItem}
+										Subtotal: $
+										{(item.price * item.qtyItem).toLocaleString('en-US', {
+											minimumFractionDigits: 2,
+											maximumFractionDigits: 2,
+										})}
 									</p>
 									<Button
 										variant="outline-danger"
@@ -100,7 +131,14 @@ const Cart = () => {
 
 					<Row className="align-items-center">
 						<Col>
-							<h4>Total: ${total.toFixed(2)}</h4>
+							{/* <h4>Total: $ {total.toFixed(2)}</h4> */}
+							<h4>
+								Total: ${' '}
+								{total.toLocaleString('en-US', {
+									minimumFractionDigits: 2,
+									maximumFractionDigits: 2,
+								})}
+							</h4>
 						</Col>
 						<Col className="text-end">
 							<Button variant="dark" onClick={handleNavigatePayment}>
