@@ -10,9 +10,6 @@
     <img src="https://github.com/hmfarias/proyecto-notredame/blob/main/src/assets/logo.png" alt="Logo" width="350" height="auto">
   </a>
   <h2 align="center">Descubre lo que necesites en cada click</h2>
-   <p align="center">
-      <a href="https://drive.google.com/file/d/17PwsNbXOG8axdjN5xmGhf8SiYgnodpZd/view?usp=sharing" target="_blank" ><strong>VIDEO PARA EL PROFESOR»</strong></a>
-    </p>
 
   <p align="center">
     Polirubro online
@@ -40,11 +37,10 @@
    - [Router](#router)
    - [Local Storage](#localstorage)
    - [Comentarios en el código](#comentarios)
-4. [Esquema de la App](#esquema)
-5. [Instalación en local](#instalacion)
-6. [Contribuyendo](#contribuyendo)
-7. [Licencia](#licencia)
-8. [Contacto](#contacto)
+4. [Instalación en local](#instalacion)
+5. [Contribuyendo](#contribuyendo)
+6. [Licencia](#licencia)
+7. [Contacto](#contacto)
 
 <hr>
 
@@ -74,9 +70,9 @@ Este repositorio contiene el código fuente de nuestra plataforma, desarrollada 
 
 ![Static Badge](https://img.shields.io/badge/React-green?style=for-the-badge) como una de las librerías más populares de JavaScript para el desarrollo de aplicaciones móviles y web. Creada por Facebook, React contiene una colección de fragmentos de código JavaScript reutilizables utilizados para crear interfaces de usuario (UI) llamadas componentes.
 
-![Static Badge](https://img.shields.io/badge/CHAKRA-orange?style=for-the-badge) como una librería de componentes de interfaz de usuario para React que permite construir aplicaciones web modernas y accesibles de manera rápida, ofreciendo componentes personalizables y listos para usar, con un enfoque en simplicidad y diseño responsivo.
+![Static Badge](https://img.shields.io/badge/Bootstrap-orange?style=for-the-badge) como una librería de componentes de interfaz de usuario para React que permite construir aplicaciones web modernas y accesibles de manera rápida, ofreciendo componentes personalizables y listos para usar, con un enfoque en simplicidad y diseño responsivo.
 
-![Static Badge](https://img.shields.io/badge/Firestore-yellow?style=for-the-badge) como base de datos de documentos NoSQL de Google Cloud Platform que permite almacenar, sincronizar y consultar datos para aplicaciones web y móviles.
+![Static Badge](https://img.shields.io/badge/Dumyjson-api-yellow?style=for-the-badge) como servicio online gratuito que ofrece datos JSON ficticios para el desarrollo front-end, especialmente útil para pruebas y creación de prototipos.
 
 [Volver al menú](#top)
 
@@ -110,20 +106,6 @@ Para solucionar esto, se ha creado una página llamada 404.html, la cual actua c
 ### COMENTARIOS EN EL CÓDIGO
 
 Tratándose de una aplicación de índole DIDACTICO, se han dejado en el código comentarios útiles para su estudio. Pero se destaca que en un proyecto real, los mismos deben ser utilizados lo menos posible.
-
-[Volver al menú](#top)
-
-<hr>
-
-<a name="esquema"></a>
-
-## ESQUEMA DE LA APP
-
-<div align="center">
-  <a href="https://github.com/hmfarias/proyecto-notredame/blob/main/src/assets/esquemaApp.png">
-    <img src="https://github.com/hmfarias/proyecto-notredame/blob/main/src/assets/esquemaApp.png" alt="Logo" width="900" height="auto">
-  </a>
-</div>
 
 [Volver al menú](#top)
 
