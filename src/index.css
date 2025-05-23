@@ -1,0 +1,38 @@
+html,
+body,
+#root {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+#root > * {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+/* ITEM CARD */
+.view-more-link {
+	color: #212529;
+	transition: background-color 0.3s ease, color 0.3s ease, border-radius 0.3s ease;
+	border-radius: 8px;
+}
+
+.view-more-link:hover {
+	background-color: rgba(114, 111, 212, 0.339); /* azul claro */
+	color: #0d6efd;
+	border-radius: 12px; /* más redondeado al hacer hover */
+}
+
+.view-more-link:hover .arrow-icon {
+	transform: translateX(4px);
+	transition: transform 0.3s ease;
+}
+
+.card-hover:hover {
+	transform: translateY(-6px);
+	box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+}
