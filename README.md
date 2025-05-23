@@ -7,8 +7,8 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://github.com/hmfarias/proyecto-notredame">
-    <img src="https://github.com/hmfarias/proyecto-notredame/blob/main/src/assets/logo2.png" alt="Logo" width="350" height="auto">
-  </a>
+    <img src="https://github.com/hmfarias/proyecto-notredame/blob/main/src/assets/logo.png" alt="Logo" width="350" height="auto">
+
   <h2 align="center">Descubre lo que necesites en cada click</h2>
    <p align="center">
       <a href="https://drive.google.com/file/d/17PwsNbXOG8axdjN5xmGhf8SiYgnodpZd/view?usp=sharing" target="_blank" ><strong>VIDEO PARA EL PROFESOR»</strong></a>
@@ -37,14 +37,14 @@
 1. [Introducción](#introduccion)
 2. [Construido con](#consturido)
 3. [Algunas Consideraciones](#consideraciones)
-   * [Router](#router)
-   * [Local Storage](#localstorage)
-   * [Comentarios en el código](#comentarios)
-5. [Esquema de la App](#esquema)
-6. [Instalación en local](#instalacion)
-7. [Contribuyendo](#contribuyendo)
-8. [Licencia](#licencia)
-9. [Contacto](#contacto)
+   - [Router](#router)
+   - [Local Storage](#localstorage)
+   - [Comentarios en el código](#comentarios)
+4. [Esquema de la App](#esquema)
+5. [Instalación en local](#instalacion)
+6. [Contribuyendo](#contribuyendo)
+7. [Licencia](#licencia)
+8. [Contacto](#contacto)
 
 <hr>
 
@@ -100,7 +100,7 @@ La App guarda el estado del carrito de compras en el Local Storage del navegador
 
 ### REFRESH EN GITHUB PAGES
 
-En una aplicación basada en rutas como en React, al recargar una página que no es la raíz (/), aún cuando la ruta sea válida (por ejemplo la ruta de un item), Github Pages devuelve una pagina 404 por defecto. 
+En una aplicación basada en rutas como en React, al recargar una página que no es la raíz (/), aún cuando la ruta sea válida (por ejemplo la ruta de un item), Github Pages devuelve una pagina 404 por defecto.
 
 Esto se debe a que GitHub Pages no sabe cómo manejar rutas dinámicas y espera encontrar un archivo físico para cada URL.
 Para solucionar esto, se ha creado una página llamada 404.html, la cual actua como un fallback para rutas que hace que ante un refresh en una página que NO sea el home, se redirecciones siempre al directorio raiz.
@@ -112,7 +112,6 @@ Para solucionar esto, se ha creado una página llamada 404.html, la cual actua c
 Tratándose de una aplicación de índole DIDACTICO, se han dejado en el código comentarios útiles para su estudio. Pero se destaca que en un proyecto real, los mismos deben ser utilizados lo menos posible.
 
 [Volver al menú](#top)
-
 
 <hr>
 
@@ -141,9 +140,8 @@ Debes contar con un editor de código como Visual Estudio Code o similar.
 
 2- Clona el repositorio escribiendo en la terminal o consola de tu pc el siguiente código:
 <code>
-  git clone https://github.com/hmfarias/proyecto-notredame.git
+git clone https://github.com/hmfarias/proyecto-notredame.git
 </code>
-
 
 Esto creará la carpeta "proyecto-notredame" y en su interior los archivos de aplicación.
 
@@ -153,19 +151,17 @@ Esto creará la carpeta "proyecto-notredame" y en su interior los archivos de ap
 
 5- Ejecuta:
 <code>
-  npm install 
+npm install
 </code>
 
 Esto instalará la aplicación de manera local.
 
 6- Ejecuta:
 <code>
-  npm run dev 
+npm run dev
 </code>
 
 Esto iniciará la aplicación en modo desarrrollador, y mostrará un link del tipo "http://localhost:xxxx/proyecto-notredame", mediante el cual podrá accederse a la aplicación en modo local.
-
-
 
 [Volver al menú](#top)
 
