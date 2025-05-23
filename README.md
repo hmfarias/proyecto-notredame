@@ -7,8 +7,8 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://github.com/hmfarias/proyecto-notredame">
-    <img src="https://github.com/hmfarias/proyecto-notredame/blob/main/src/assets/logo.png" alt="Logo" width="350" height="auto">
-
+    <img src="https://github.com/hmfarias/proyecto-notredame/blob/main/src/assets/logo2.png" alt="Logo" width="350" height="auto">
+  </a>
   <h2 align="center">Descubre lo que necesites en cada click</h2>
    <p align="center">
       <a href="https://drive.google.com/file/d/17PwsNbXOG8axdjN5xmGhf8SiYgnodpZd/view?usp=sharing" target="_blank" ><strong>VIDEO PARA EL PROFESOR»</strong></a>
